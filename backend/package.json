@@ -1,0 +1,19 @@
+{
+  "name": "venue-control-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "API serverless de Venue Control (zonas del recinto)",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "build": "tsc",
+    "start": "npm run build && serverless offline"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/aws-lambda": "8.10.164",
+    "@types/node": "22.20.5",
+    "serverless": "4.45.0",
+    "serverless-offline": "14.8.4",
+    "typescript": "5.9.3"
+  }
+}
